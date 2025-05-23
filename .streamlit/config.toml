@@ -1,0 +1,20 @@
+[theme]
+base = "light"
+primaryColor = "#4caf50"
+backgroundColor = "#f0f2f6"
+secondaryBackgroundColor = "#ffffff"
+textColor = "#262730"
+font = "sans serif"
+
+[server]
+port = 8501
+enableCORS = false
+enableXsrfProtection = true
+
+[browser]
+serverAddress = "localhost"
+serverPort = 8501
+
+[runner]
+# Address to listen on. Defaults to localhost.
+address = "0.0.0.0"
